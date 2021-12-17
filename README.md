@@ -139,20 +139,24 @@ while True:
 * **Hasil output program:**
 
 Hasil output Tampilan awal program
+
 ![Gambar 2](Screenshoot/ss2.png)
 
-
 Hasil output ketika program menambahkan data
+
 ![Gambar 3](Screenshoot/ss3.png)
 
 Hasil output ketika program menghapus data
+
 ![Gambar 4](Screenshoot/ss4.png)
 
 Hasil output ketika program mengubah data
+
 ![Gambar 5](Screenshoot/ss5.png)
 
 
 Hasil output ketika program diberhentikan
+
 ![Gambar 6](Screenshoot/ss6.png)
 
 * **Flowchart:**
@@ -181,6 +185,7 @@ Berikut flowchart dari program data nilai mahasiswa.
     
 judul()
     ```
+
 3. Pada sebuah fungsi def tambah() yang berisikan dengan inputan nama, nim, tugas, uts, uas dan perhitungan nilai akhir yang akan di masukan ke directory DataMahasiswa. Dan untuk operator nilainya menggunakan aritmatika.
     ```python
     def tambah():
@@ -193,6 +198,7 @@ judul()
         DataMahasiswa[nama] = nim, tugas, uts, uas, akhir,
         print("DATA BERHASIL DI TAMBAHKAN!")
     ```
+    
 4. Kodingan dibawah adalah tabel yang menampilkan sebuah hasil dari penginputan program. Sedangkan ***for tampil in DataMahasiswa.items()*** adalah sebuah pengulangan yang ada pada Directory ***"DataMahasiswa"*** didalamnnya.
     ```python
     def tampilkan():
@@ -208,6 +214,7 @@ judul()
             print("| {6:2} |\t {0:15}   | {1:9} \t| {2:5} | {3:3} | {4:3} | {5:5} |".format(tampil[0], tampil[1][0], tampil[1][1], tampil[1][2], tampil[1][3],"%.2f" % float(tampil[1][4]), i))
             print("=" * 69)
         ```
+
 5. Kodingan ini digunakan untuk penghapusan sebuah data pada program yang sebelumnya telah diinput. Dan inputan dari kodingan ini berdasarkan ***"nama"*** yang sebelumnya telah diinput.
     ```python
     def hapus(nama):
