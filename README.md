@@ -1,6 +1,12 @@
 # Praktikum6
 ## Tugas Pertemuan 11 - Bahasa Pemrograman
 
+```sh
+Nama   : Raihan Tantowi
+Nim    : 312110229
+Matkul : Bahasa Pemrograman
+```
+
 ### 1. File Latihan.py
 Program ini adalah program latihan, Yaitu mengubah kode menjadi fungsi menggunakan *"lambda"*.
 
