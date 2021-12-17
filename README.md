@@ -2,7 +2,7 @@
 ## Tugas Pertemuan 11 - Bahasa Pemrograman
 
 ### 1. File Latihan.py
-Program ini adalah program latihan, yaitu Mengubah kode menjadi fungsi menggunakan *"lambda"*.
+Program ini adalah program latihan, Yaitu mengubah kode menjadi fungsi menggunakan *"lambda"*.
 
 * **CODINGAN:**
 ```python
@@ -35,8 +35,10 @@ print(d("Raihan"))
 ![Gambar 1](Screenshoot/ss1.png)
 
 ### 2. File Praktikum.py
+
+Program ini adalah program sederhana yang akan menampilkan daftar nilai mahasiswa, Program dibuat dengan mengaplikasikan penggunaan *"fungsi"* 
+pada python, dengan ketentuan: 
 ```md
-Program ini adalah program sederhana yang akan menampilkan daftar nilai mahasiswa, Program dibuat dengan mengaplikasikan penggunaan *"fungsi"* pada python, dengan ketentuan: 
 * Fungsi **tambah()** untuk menambah data
 * Fungsi **tampilkan()** untuk menampilkan data
 * Fungsi **hapus()** untuk menghapus data berdasarkan nama
@@ -139,6 +141,7 @@ while True:
 Hasil output Tampilan awal program
 ![Gambar 2](Screenshoot/ss2.png)
 
+
 Hasil output ketika program menambahkan data
 ![Gambar 3](Screenshoot/ss3.png)
 
@@ -148,13 +151,14 @@ Hasil output ketika program menghapus data
 Hasil output ketika program mengubah data
 ![Gambar 5](Screenshoot/ss5.png)
 
+
 Hasil output ketika program diberhentikan
 ![Gambar 6](Screenshoot/ss6.png)
 
 * **Flowchart:**
 
 Berikut flowchart dari program data nilai mahasiswa.
-![Gambar 7](Screenshoot/Flowchat.png)
+![Gambar 7](Screenshoot/Flowchart.png)
 
 * **Penjelasan program:**
 
@@ -270,3 +274,4 @@ judul()
     else:
         print("PILIHAN MENU TIDAK ADA!")
     ```
+10. Sekian Terima Kasih :)
